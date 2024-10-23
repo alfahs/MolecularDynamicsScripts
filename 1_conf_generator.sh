@@ -11,7 +11,7 @@ nb=$(seq 0 1 7)
 ss=$(seq 2 1 257)
 
 
-#dans chaque fichier temperature, on besoin de XDAT. et POS. /AlMg/600K/
+#dans chaque fichier temperature, on besoin de XDAT. et POS. 
 for i in $nb; do
 	j=$((i+1))
 	mkdir conf_$j
