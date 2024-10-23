@@ -23,7 +23,7 @@ for i in $nb; do
 	echo "$A" > POSCAR
 	cd ..
         for b in $ss; do
-                B=$(grep -A256 "=  ${j}000" XDAT.Al80Si10Fe10.1200K.8000.36 | sed -n ${b}p)
+                B=$(grep -A256 "=  $configurationnumber" fileXDAT | sed -n ${b}p) # conf number must be set with fileXDAT
 		cd conf_$j
                 echo "$B T T T" >> POSCAR
 	cd ..
