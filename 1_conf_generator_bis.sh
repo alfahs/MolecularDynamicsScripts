@@ -12,9 +12,6 @@ cd ../../CNA/$name/${T}K/
 
 ss=$(seq 2 1 $(( $atom_numb + 1 )))
 
-
-#dans chaque fichier temperature, on besoin de XDAT. et POS. /AlMg/600K/
-
 	
 	mkdir conf_${conf_numb}
 	cd ../src/
@@ -25,12 +22,12 @@ ss=$(seq 2 1 $(( $atom_numb + 1 )))
 	echo "$A" > POSCAR
 	cd ..
         for b in $ss; do
-                B=$(grep -A${atom_numb} "=  1000" ${XDAT_name} | sed -n ${b}p)
+                B=$(grep -A${atom_numb} "=  $confignumber" ${XDAT_name} | sed -n ${b}p) #set config numb
 		cd conf_${conf_numb}
                 echo "$B T T T" >> POSCAR
 		cd ..
         done
 	cd conf_${conf_numb}
-	oarsub -S ./run.oar
+ 	#write command line to run the script on the cluster
 	cd ..
 
