@@ -12,7 +12,7 @@ cd ../../CNA/$name/${temperature}K/
 
 mkdir POSfile
 
-#dans chaque fichier temperature, on besoin de XDAT. et POS. /AlMg/600K/
+#dans chaque fichier temperature, on besoin de XDAT. et POS.
 for i in $nb; do
         A=$(head -9 POS.A*)
         cd POSfile/
