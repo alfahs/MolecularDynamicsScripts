@@ -15,16 +15,15 @@ These tools are especially useful for researchers working on liquids or disorder
 
 ## Features
 
-✅ Automated temperature sweep  
+✅ Automated temperature  
 ✅ Multiple time-based runs for statistical accuracy  
-✅ Modular and easy to customize  
-✅ Suitable for use with tools like LAMMPS, OVITO, or custom post-processing scripts
+✅ Suitable for use with tools like LAMMPS, VASP, OVITO, or custom post-processing scripts
 
 ## Requirements
 
 - Unix-based system (Linux/macOS)
 - Bash shell
-- Molecular dynamics software (e.g., **LAMMPS**)  
+- Molecular dynamics software (e.g., **LAMMPS**,**VASP**)  
 - Post-processing tools for CNA (e.g., **OVITO**, custom scripts)
 
 ## Usage
@@ -32,5 +31,5 @@ These tools are especially useful for researchers working on liquids or disorder
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/cna-automation.git
-   cd cna-automation
+   git clone https://github.com/alfahs/MolecularDynamicsScripts.git
+   cd MolecularDynamicsScripts
