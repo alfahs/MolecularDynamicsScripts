@@ -29,6 +29,6 @@ for i in $nb; do
 	cd ..
         done
 	cd conf_$j
-	oarsub -S ./run.oar
+	#submit your job
 	cd ..
 done
