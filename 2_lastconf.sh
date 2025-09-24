@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#comm
 read -p "Enter the number of atoms: " numberatoms
 
 nb=$(seq 1 1 10)
