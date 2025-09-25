@@ -17,7 +17,7 @@ Improve the readability and usability of the scripts by:
 
 ---
 
-## 🧩 2. Make the Scripts More User-Friendly
+## 🧩 2. Make the Scripts More User-Friendly for Windows Users
 
 Help improve the user experience by:
 
