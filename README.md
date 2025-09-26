@@ -7,7 +7,7 @@ This repository contains Bash scripts designed to automate atomic simulations, s
 The scripts allow you to:
 
 - Run simulations at **multiple temperatures** automatically.
-- Perform multiple runs at the **same temperature but different time intervals** to improve statistical accuracy.
+- Perform multiple runs at the **same temperature to improve statistical accuracy.
 - Generate outputs ready for post-processing and analysis.
 - Easily **adapt scripts** for other types of atomic or structural analysis.
 
