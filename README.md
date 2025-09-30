@@ -16,7 +16,7 @@ These tools are especially useful for researchers working on liquids or disorder
 ## Features
 
 ✅ Automated temperature  
-✅ Multiple time-based runs for statistical accuracy  
+✅ Multiple runs for statistical accuracy  
 ✅ Suitable for use with tools like LAMMPS, VASP, OVITO, or custom post-processing scripts
 
 ## Requirements
