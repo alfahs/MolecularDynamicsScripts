@@ -31,5 +31,5 @@ These tools are especially useful for researchers working on liquids or disorder
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alfahs/MolecularDynamicsScripts.git
-   cd MolecularDynamicsScripts
+   git clone https://github.com/alfahs/LiquidClusters.git
+   cd LiquidClusters
